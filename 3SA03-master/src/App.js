@@ -17,6 +17,7 @@ const prepareStateFromWord = (given_word) => {
   }
 }
 
+
 class App extends React.Component {
   reset = () => {
     this.setState({ completed: !this.state.completed, attempt: this.state.attempt + 1 })
